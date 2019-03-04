@@ -1,6 +1,10 @@
 exports.createPages = ({ actions: { createPage } }) => {
   createPage({
-    path: "/no-data/",
-    component: require.resolve("./src/templates/no-data.js"),
+    path: "/page-with-context/",
+    component: require.resolve("./src/templates/with-context.js"),
+    context: {
+      title: "We Don’t Need No Stinkin’ GraphQL",
+      content: "<p>This is page content.</p><p>No GraphQL required!</p>",
+    },
   })
 }
