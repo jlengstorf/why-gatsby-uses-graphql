@@ -1,7 +1,8 @@
 {
-  "name": "gatsby-starter-hello-world",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "name": "why-gatsby-uses-graphql",
+  "author": "Jason Lengstorf <jason@gatsbyjs.com>",
+  "description": "A walkthrough of why Gatsby uses GraphQL to manage data.",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -22,9 +23,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/jlengstorf/why-gatsby-uses-graphql"
   }
 }
